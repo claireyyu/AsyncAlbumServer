@@ -43,7 +43,7 @@ func main() {
 	}
 
 	// === 连接 MySQL 数据库 ===
-	db, err := sql.Open("mysql", "root:123456@tcp(127.0.0.1:3306)/mydemodb")
+	db, err := sql.Open("mysql", "root:12345678@tcp(database-1.cqzfidh4zvkc.us-west-2.rds.amazonaws.com:3306)/mydemodb")
 	if err != nil {
 		log.Fatalf("DB connect error: %v", err)
 	}
