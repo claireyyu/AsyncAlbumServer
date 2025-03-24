@@ -38,7 +38,7 @@ var mqChannel *amqp.Channel
 
 func main() {
 	// 连接 MySQL 数据库
-	dsn := "root:123456@tcp(database-1.cqzfidh4zvkc.us-west-2.rds.amazonaws.com:3306)/mydemodb"
+	dsn := "root:12345678@tcp(database-1.cqzfidh4zvkc.us-west-2.rds.amazonaws.com:3306)/mydemodb"
 	var err error
 	db, err = sql.Open("mysql", dsn)
 	if err != nil {
